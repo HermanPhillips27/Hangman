@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/hangman.css">
+</head>
+<body>
+    
+    <div>
+        <h1>Welcome to Videogame Hangman</h1>
+        <h2>Try to guess the name of the video game i am thinking of right now!</h2>
+    </div>
+    <div class="gamebackground">
+        <div class="container">
+
+            <div>
+                <h3 id="currentWord">_</h3>
+            </div>
+            <div id="scoreboard">
+            <div id="sidebar"></div>
+                    <h3>GUESSES LEFT:
+                        <span id="remainingGuesses"></span></h3>
+
+            <div id="sidebar">
+                    <h3>Wins :
+                        <span id="winstracker"></span>
+                    </h3>
+            </div>
+            <div id="sidebar">
+                    <h3>Losses :
+                        <span id="losstracker"></span>
+                    </h3>
+            </div>
+            <div id="sidebar">
+                    <h3>LETTERS YOU HAVE GUESSED :
+                        <span id="playerguesses"></span>
+                    </h3>
+            </div>
+            </div>
+            
+            
+
+        </div>
+
+    </div>
+    <script src="assets/hangman.js"></script>
+</body>
+</html>
