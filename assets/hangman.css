@@ -1,59 +1,24 @@
-h1 {
-    font-size: 43px;
-    border: dashed 5px royalblue;
-    background: white;
+header {
+    border-style: groove;
+    border: 2px black;
     text-align: center;
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right:10%;
-    padding: 15px;
-    font-family: 'Faster One', cursive;
-}
+    margin: 0 auto;
 
-h2 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 20px;
-    padding-top: 10px;
+}
+.underscore {
     text-align: center;
-}
-.sidebar {
-    padding: 5px;
-    position: relative;
-    border-top: solid royalblue 2px;
-    border-bottom: solid royalblue 2px;
-    margin-bottom: 5px;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
-}
-
-span {
-    border: solid blue 2px;
-    padding-left: 3px;
-    padding-right:3px;
-    background-color: yellow; 
-    font-size: 15px;
+    margin: 0 auto;
+    font-size: 70px;
 }
 .container {
-    background-color: white;
-    margin-top: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5px;
-    text-align: center;
-    border: solid 3px red;
+    margin: auto;
+    margin-left: 10px;
 }
-
-#currentword {
-    font-size: 30px;
-    font-family: 'Press Start 2P', cursive;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
 #scoreboard {
-    padding: 20px;
+    margin-left: 200px;
 }
 body {
-    background-image: url(https://s17189.pcdn.co/blog/wp-content/uploads/2018/04/jeshoots-com-250229-unsplash-1060x540.jpg);
-
+    margin-top: 200px;
+    border: solid 75px;
+    border-image: url(photos/controller.png) 75 round;
 }

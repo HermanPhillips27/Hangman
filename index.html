@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/hangman.css">
+    
+    
 </head>
 <body>
     
-    <div>
+    <header>
         <h1>Welcome to Videogame Hangman</h1>
-        <h2>Try to guess the name of the video game i am thinking of right now!</h2>
-    </div>
+        <h3>Try to guess the name of the video game i am thinking of right now!</h2>
+    </header>
     <div class="gamebackground">
         <div class="container">
 
             <div>
-                <h3 id="currentWord">_</h3>
+                <h3 class="underscore" id="currentWord">_</h3>
             </div>
             <div id="scoreboard">
             <div id="sidebar"></div>
